@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include check_available_qty_from_so *.css
+recursive-include check_available_qty_from_so *.csv
+recursive-include check_available_qty_from_so *.html
+recursive-include check_available_qty_from_so *.ico
+recursive-include check_available_qty_from_so *.js
+recursive-include check_available_qty_from_so *.json
+recursive-include check_available_qty_from_so *.md
+recursive-include check_available_qty_from_so *.png
+recursive-include check_available_qty_from_so *.py
+recursive-include check_available_qty_from_so *.svg
+recursive-include check_available_qty_from_so *.txt
+recursive-exclude check_available_qty_from_so *.pyc
